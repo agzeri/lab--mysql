@@ -32,7 +32,6 @@ After completing this assignment you should be able to:
 ### Deliverables
 
   + a github repository with two files:
-    + `README.md` with all questions listed.
     + an `.sql` file with questions and solution for each one
 
 ---
@@ -86,20 +85,3 @@ After completing this assignment you should be able to:
 + Write a query to display the department name (`Departments.DEPARTMENT_NAME`), manager name (`Employees.FIRST_NAME`), and city (`Locations.CITY`).
 + Write a query to display the job title (`Jobs.JOBS_TITLE`) and average salary (`Employees.SALARY`) of employees.
 + Write a query to display the job history (`JobsHistory`) that were done by any employee (`Employees`) who is currently earning more than 10000 of salary (`Employees.SALARY`).
-
-## Additional Instructions
-
-#### Access to MySQL Remote Server
-
-##### URL
-
-```
-45.55.135.14/phpmyadmin
-```
-
-##### Log In
-
-```sql
--u root
--p root
-```
